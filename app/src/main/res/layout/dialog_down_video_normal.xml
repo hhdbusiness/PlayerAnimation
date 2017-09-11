@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:background="@color/white"
+              android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="17dp"
+        android:paddingBottom="10dp"
+        android:text="选择你想下载视频的清晰度"
+        android:textColor="@color/c_333333"
+        android:textSize="16sp"/>
+
+    <TextView
+        android:id="@+id/flv_1080"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:drawablePadding="5dp"
+        android:drawableRight="@mipmap/video_vip"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp"
+        android:text="超清1080P"
+        android:textColor="@color/c_333333"
+        android:textSize="15sp"/>
+
+    <TextView
+        android:id="@+id/flv_720"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp"
+        android:text="高清720P"
+        android:textColor="@color/c_333333"
+        android:textSize="15sp"/>
+
+    <TextView
+        android:id="@+id/flv_480"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        android:layout_marginLeft="20dp"
+        android:paddingTop="10dp"
+        android:text="标清480P"
+        android:textColor="@color/c_333333"
+        android:textSize="15sp"/>
+
+</LinearLayout>
